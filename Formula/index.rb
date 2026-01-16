@@ -5,8 +5,8 @@
 class Index < Formula
   desc "Local semantic search for your dependencies mcp server for claude code"
   homepage "https://github.com/noetic-sys/index"
-  url "https://github.com/noetic-sys/index/archive/refs/tags/v0.1.4.tar.gz"
-  sha256 "9a8df07d9f48dca3accb0c1e7ff9d8cc68f2e34634bc9d6575da24b86346b7fc"
+  url "https://github.com/noetic-sys/index/archive/refs/tags/v0.1.5.tar.gz"
+  sha256 "fc2268b560434390de82ab3e43a408c6e18671779cf6c645a061c928c9180d4a"
   license "AGPL-3.0"
 
   on_macos do
