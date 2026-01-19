@@ -6,7 +6,7 @@ class Idx < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/noetic-sys/index/releases/download/v#{version}/idx-darwin-x86_64.tar.gz"
+      url "https://github.com/noetic-sys/index/releases/download/v#{version}/idx-darwin-amd64.tar.gz"
       sha256 "e06fda4acfb45f2ce71821e6a726449193a9aca234131528ad9fc2347ae1e9d9"
     end
     on_arm do
@@ -17,7 +17,7 @@ class Idx < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/noetic-sys/index/releases/download/v#{version}/idx-linux-x86_64.tar.gz"
+      url "https://github.com/noetic-sys/index/releases/download/v#{version}/idx-linux-amd64.tar.gz"
       sha256 "c67804d1ae5d8b8aad054c13d567b64a28d7756245478dc334c841a897be13f7"
     end
     on_arm do
