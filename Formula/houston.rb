@@ -1,25 +1,25 @@
 class Houston < Formula
   desc "Terminal UI for managing GitHub Actions workflows and deployments"
   homepage "https://github.com/noetic-sys/houston"
-  version "0.1.9"
+  version "0.1.10"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/noetic-sys/houston/releases/download/v0.1.9/houston-aarch64-apple-darwin.tar.xz"
-      sha256 "7e8df1d644268f124d0fedc5efcfe4194ad12c697c4116c12229341bbf96f3b4"
+      url "https://github.com/noetic-sys/houston/releases/download/v0.1.10/houston-aarch64-apple-darwin.tar.xz"
+      sha256 "f38f76bdcea7bcc39c1b4cccd940a2ed6c75ee9e6530ecb24c5125ffeb8a9b4f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/noetic-sys/houston/releases/download/v0.1.9/houston-x86_64-apple-darwin.tar.xz"
-      sha256 "18622c034e2693984a1a9e13f3d05ac77fd3a4173fc7124b68c1104f85fc3f3f"
+      url "https://github.com/noetic-sys/houston/releases/download/v0.1.10/houston-x86_64-apple-darwin.tar.xz"
+      sha256 "781547dbb13c3a868efafb90d5b389eadffd14f9d075167b6f05618ec31c16de"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/noetic-sys/houston/releases/download/v0.1.9/houston-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "85dc99a403c9d3e7357a91ea158eb66d5a36298dcef1d76ce7557ac5054cb6c5"
+      url "https://github.com/noetic-sys/houston/releases/download/v0.1.10/houston-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "345e03f79172a715201bd7ceefdb6ccff5d1259edc3bcd8e3f60a562d9311625"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/noetic-sys/houston/releases/download/v0.1.9/houston-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "8ab2512dfeee23fee4e97943dc75dd344650de1055b81fa2de8f1f53abefe99d"
+      url "https://github.com/noetic-sys/houston/releases/download/v0.1.10/houston-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "527ac48e7a6fb0977b7a1b63b52db4fb58d9ae09685d6fb6a87c3ad5680ded01"
     end
   end
   license "MIT"
