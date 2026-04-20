@@ -1,28 +1,28 @@
 class Idx < Formula
   desc "Semantic code search for your dependencies"
   homepage "https://github.com/noetic-sys/index"
-  version "0.1.9"
+  version "0.2.0"
   license "AGPL-3.0-or-later"
 
   on_macos do
     on_intel do
-      url "https://github.com/noetic-sys/index/releases/download/v0.1.9/idx-darwin-amd64.tar.gz"
-      sha256 "f0e4613870e30d3a5258abdffd53f54e9f5aaa49909666235b0919171c05ce45"
+      url "https://github.com/noetic-sys/index/releases/download/v0.2.0/idx-darwin-amd64.tar.gz"
+      sha256 "ddfaa3658e1e1985fe6815ff2bfc517bbaeca9b917daf5a51f2a1cb6c45cac09"
     end
     on_arm do
-      url "https://github.com/noetic-sys/index/releases/download/v0.1.9/idx-darwin-arm64.tar.gz"
-      sha256 "5112b2b0a852647ff1cac300781c0641046d512983bc727239638235200770f2"
+      url "https://github.com/noetic-sys/index/releases/download/v0.2.0/idx-darwin-arm64.tar.gz"
+      sha256 "aeb60170d7a32831fa5b399586d2dbce46426704347b908ab88db42843d05a26"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/noetic-sys/index/releases/download/v0.1.9/idx-linux-amd64.tar.gz"
-      sha256 "8e1813761814ec903515306e07b24d9882162b81cf5f0ae0367be84492b17ddc"
+      url "https://github.com/noetic-sys/index/releases/download/v0.2.0/idx-linux-amd64.tar.gz"
+      sha256 "9dc8a1bc8c0c2e45953c9546e2acc418faeefcb938bf2ddf17484bc263aceb0c"
     end
     on_arm do
-      url "https://github.com/noetic-sys/index/releases/download/v0.1.9/idx-linux-arm64.tar.gz"
-      sha256 "a8145638f23908316c60f9d96642b0bded95cdb043d0b0268dc5f7ef92d2aa49"
+      url "https://github.com/noetic-sys/index/releases/download/v0.2.0/idx-linux-arm64.tar.gz"
+      sha256 "bb531283fc82e28af1d199ef45f5a90ddbe1c2c27b672fb895d1c63cf6c8fa53"
     end
   end
 
